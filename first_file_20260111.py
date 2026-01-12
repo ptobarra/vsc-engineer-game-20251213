@@ -5,7 +5,7 @@ def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-# We are going to create a simple Python script that prints "Hello, World!" to the console.
+# We are going to create a simple Python script that prints "Hello, World!" to the console. And we will also ask the user for their name and age, then print a personalized greeting.
 def main():
     name = input("What is your name? ")
 
